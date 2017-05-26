@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sac.reach.maintencehero">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MH2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view" />
+        <activity android:name=".details" />
+        <activity android:name=".main" />
+        <activity android:name=".unresolved" />
+        <activity android:name=".update" />
+        <activity android:name=".getdet" />
+        <activity android:name=".uploader" />
+        <activity android:name=".complaint"></activity>
+    </application>
+
+</manifest>
